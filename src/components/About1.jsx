@@ -13,7 +13,7 @@ const About1 = () => {
           I'm currently a freshman at New York University majoring in Computer Science. My current interests include machine learning, artificial intelligence, and blockchain. I have a passion for learning, building, and coding.
         </p>
         <p className="py-3 text-lg">
-          Outside of programming, you can find me playing piano, practicing jiu-jitsu, or just laying in bed while scrolling through reels.
+          Outside of programming, you can find me playing piano, practicing jiu-jitsu, or just laying in bed watching Netflix.
         </p>
         <p className="py-3 text-lg">
           I still have a lot to learn, and I'm always looking for new opportunities to grow, collaborate, and challenge myself in the world of tech.
