@@ -22,7 +22,6 @@ const Experiences = () => {
               >
                 <h3 className="text-xl font-semibold mb-1">{exp.company}</h3>
                 <h4 className="text-lg font-medium mb-2">{exp.role}</h4>
-                <p className="mb-2">{exp.description}</p>
                 <span className="text-sm text-gray-600">{exp.date}</span>
               </div>
             ))}

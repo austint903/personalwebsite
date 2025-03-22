@@ -21,7 +21,7 @@ const Navbar = () => {
             }`}>
           About
         </Link>
-        <a href="https://drive.google.com/file/d/1qYlC8iQhmf21z_TkDHyNnvU24CxjV2zs/view?usp=share_link" target="_blank" rel="noopener noreferrer" className="hover:text-purple-600 transition-colors text-lg font-semibold">
+        <a href="https://drive.google.com/file/d/1BK1limxWN8zbHIjKPELn0Zogva1qa5me/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-purple-600 transition-colors text-lg font-semibold">
           Resume
         </a>
       </div>
