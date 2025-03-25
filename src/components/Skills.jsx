@@ -1,6 +1,5 @@
 import { FaReact } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 
@@ -18,9 +17,6 @@ const Skills = () => {
             </div>
             <div className="rounded-2xl border-4 border-purple-400/50 p-4">
                 <SiTypescript className="text-4xl"/>
-            </div>
-            <div className="rounded-2xl border-4 border-purple-400/50 p-4">
-                <FaJava className="text-4xl"/>
             </div>
             <div className="rounded-2xl border-4 border-purple-400/50 p-4">
                 <FaPython className="text-4xl"/>
