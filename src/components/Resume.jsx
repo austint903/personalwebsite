@@ -1,8 +1,10 @@
+import React from 'react'
 
-
-const Resume = () => {
+function Resume() {
   return (
-    <div></div>
+    <div>
+        
+    </div>
   )
 }
 
