@@ -10,7 +10,7 @@ const About1 = () => {
       <div className="w-1/3 flex flex-col">
         <h2 className="text-4xl font-bold">Hi! I'm Austin!</h2>
         <p className="py-4 text-lg">
-          I'm currently a freshman at New York University majoring in Computer Science. My current interests include machine learning, artificial intelligence, and blockchain. I have a passion for learning, building, and coding.
+          I'm currently a student at New York University majoring in Computer Science. My current interests include systems, game engines, web development, and artificial intelligence. I have a passion for learning, building, and coding.
         </p>
         <p className="py-3 text-lg">
           Outside of programming, you can find me playing piano, practicing jiu-jitsu, or just laying in bed watching Netflix.
