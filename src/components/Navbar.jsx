@@ -30,7 +30,7 @@ const Navbar = () => {
           }`}></span>
         </Link>
         <a
-          href="https://drive.google.com/file/d/14Y8jKr71trlgo99hE7JVZKXdsFyuQJUt/view?usp=sharing"
+          href="https://drive.google.com/file/d/1xLk7Ulz9bnLr1uTS-d_1l-FNTVMX_omO/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lofi-brown hover:text-lofi-darkBrown transition-all duration-300 text-base font-light tracking-wide relative group">
