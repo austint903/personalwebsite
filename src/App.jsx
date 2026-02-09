@@ -3,7 +3,6 @@ import { Analytics } from '@vercel/analytics/react';
 import About from "./components/About";
 import Navbar from './components/Navbar';
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
 import Skills from "./components/Skills"
 import About1 from "./components/About1"
 import Experiences from './components/Experiences';
@@ -50,7 +49,6 @@ const App = () => {
                   <Experiences/>
                   <Projects />
                   <Skills />
-                  <Resume />
                 </>
               } />
               <Route path="/about" element={<About1 />} />
