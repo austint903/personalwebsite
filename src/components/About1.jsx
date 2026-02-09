@@ -1,5 +1,5 @@
 import React from 'react';
-import spongebob from "../assets/spongebob.png";
+import headshot from "../assets/Austin_Tan_Headshot copy.png";
 
 const About1 = () => {
   return (
@@ -10,8 +10,8 @@ const About1 = () => {
             <div className="relative group">
               <div className="absolute -inset-1 bg-lofi-accent rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
               <img
-                src={spongebob}
-                alt="Spongebob"
+                src={headshot}
+                alt="Austin Tan"
                 className="relative rounded-2xl shadow-xl h-80 w-auto object-cover border-4 border-lofi-sand transform transition duration-500 group-hover:scale-105"
               />
             </div>
