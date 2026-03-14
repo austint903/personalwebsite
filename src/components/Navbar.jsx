@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link, useLocation } from 'react-router-dom';
+import resumePdf from '../assets/Austin_Tan_Resume.pdf';
 
 const Navbar = () => {
   const location = useLocation();
@@ -30,7 +31,7 @@ const Navbar = () => {
           }`}></span>
         </Link>
         <a
-          href="https://drive.google.com/file/d/19gM4RyvFzhMOIbber1OPHr3oulv9jZf8/view?usp=sharing"
+          href={resumePdf}
           target="_blank"
           rel="noopener noreferrer"
           className="text-lofi-brown hover:text-lofi-darkBrown transition-all duration-300 text-base font-light tracking-wide relative group">
