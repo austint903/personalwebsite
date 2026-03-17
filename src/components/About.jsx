@@ -1,7 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { HiDocumentText } from "react-icons/hi";
-import resumePdf from '../assets/Austin_Tan_Resume.pdf';
 
 const About = () => {
   return (
@@ -51,7 +50,7 @@ const About = () => {
           Email
         </a>
         <a
-          href={resumePdf}
+          href="/Austin_Tan_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-4 py-2 rounded-full border border-lofi-brown/30 text-lofi-brown hover:text-lofi-darkBrown hover:border-lofi-darkBrown transition-all duration-300 text-sm font-light tracking-wide"
