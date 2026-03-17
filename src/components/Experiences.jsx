@@ -4,7 +4,7 @@ const Experiences = () => {
         company:"CrowdVolt",
         role:"Software Engineering Intern",
         description:"",
-        date: "Oct 2025 - Present"
+        date: "Oct 2025 - May 2026"
       },
       {
         company: "Tech@NYU",
