@@ -1,10 +1,22 @@
 const Experiences = () => {
     const experiences = [
       {
-        company:"CrowdVolt",
+        company:"MathWorks",
+        role:"Engineering Development Group Intern",
+        description:"",
+        date: "May 2026 - Aug 2026"
+      },
+      {
+        company:"New York University",
+        role:"Undergraduate Research Assistant",
+        description:"Consensus Protocols and Distributed Systems",
+        date: "Apr 2026 - Present"
+      },
+      {
+        company:"CrowdVolt (YC W24)",
         role:"Software Engineering Intern",
         description:"",
-        date: "Oct 2025 - May 2026"
+        date: "Oct 2025 - Apr 2026"
       },
       {
         company: "Tech@NYU",
