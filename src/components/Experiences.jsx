@@ -3,26 +3,25 @@ const Experiences = () => {
       {
         company:"MathWorks",
         role:"Engineering Development Group Intern",
-        description:"",
+        description:[],
         date: "May 2026 - Aug 2026"
       },
       {
         company:"New York University",
         role:"Undergraduate Research Assistant",
-        description:"Consensus Protocols and Distributed Systems",
+        description:["Consensus Protocols and Distributed Systems"],
         date: "Apr 2026 - Present"
       },
       {
         company:"CrowdVolt (YC W24)",
         role:"Software Engineering Intern",
-        description:"",
+        description:[],
         date: "Oct 2025 - Apr 2026"
       },
       {
         company: "Tech@NYU",
         role: "Software Developer",
-        description:
-          "",
+        description: [],
         date: "Feb 2025 - May 2025",
       },
       
@@ -69,6 +68,16 @@ const Experiences = () => {
                   <h4 className="text-base font-light text-lofi-coffee tracking-wide">
                     {exp.role}
                   </h4>
+                  {exp.description.length > 0 && (
+                    <ul className="mt-3 space-y-1 pl-4">
+                      {exp.description.map((item, i) => (
+                        <li key={i} className="flex items-start gap-2 text-sm font-light text-lofi-mocha">
+                          <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-lofi-rust/60"></span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </div>
             ))}
