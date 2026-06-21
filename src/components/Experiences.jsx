@@ -1,15 +1,20 @@
 const Experiences = () => {
     const experiences = [
       {
+        company:"Amazon Web Services",
+        role:"Software Development Intern",
+        description:[],
+        date: "Incoming Fall 2026"
+      },
+      {
         company:"MathWorks",
-        role:"Engineering Development Group Intern",
+        role:"Software Engineering Intern",
         description:[],
         date: "May 2026 - Aug 2026"
       },
       {
         company:"New York University",
-        role:"Undergraduate Research Assistant",
-        description:["Consensus Protocols and Distributed Systems"],
+        role:"Undergraduate Research Assistant - Consensus Protocols and Distributed Systems",
         date: "Apr 2026 - Present"
       },
       {
