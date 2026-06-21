@@ -15,6 +15,7 @@ const Experiences = () => {
       {
         company:"New York University",
         role:"Undergraduate Research Assistant - Consensus Protocols and Distributed Systems",
+        description:[],
         date: "Apr 2026 - Present"
       },
       {
@@ -73,7 +74,7 @@ const Experiences = () => {
                   <h4 className="text-base font-light text-lofi-coffee tracking-wide">
                     {exp.role}
                   </h4>
-                  {exp.description.length > 0 && (
+                  {exp.description?.length > 0 && (
                     <ul className="mt-3 space-y-1 pl-4">
                       {exp.description.map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm font-light text-lofi-mocha">
