@@ -2,13 +2,13 @@ const Experiences = () => {
     const experiences = [
       {
         company:"Amazon Web Services",
-        role:"Software Development Intern",
+        role:"Software Development Engineer Intern",
         description:[],
         date: "Incoming Fall 2026"
       },
       {
         company:"MathWorks",
-        role:"Software Engineering Intern",
+        role:"Software Engineer Intern",
         description:[],
         date: "May 2026 - Aug 2026"
       },
@@ -20,7 +20,7 @@ const Experiences = () => {
       },
       {
         company:"CrowdVolt (YC W24)",
-        role:"Software Engineering Intern",
+        role:"Software Engineer Intern",
         description:[],
         date: "Oct 2025 - Apr 2026"
       },
